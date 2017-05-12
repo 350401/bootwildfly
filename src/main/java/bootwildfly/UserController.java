@@ -33,7 +33,7 @@ public class UserController {
     Company company = null;
     try {
       company = new Company(email, name);
-      companyDao.save(user);
+      companyDao.save(company);
     }
     catch (Exception ex) {
       return "Error creating the user: " + ex.toString();
