@@ -21,6 +21,6 @@ public interface CompanyDao extends CrudRepository<Company, Integer> {
    * 
    * @param email the user email.
    */
-  public User findByName(String name);
+  public Company findByName(String name);
 
 } // class UserDao
