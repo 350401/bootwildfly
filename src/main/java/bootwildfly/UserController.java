@@ -59,7 +59,7 @@ public class UserController {
     catch (Exception ex) {
       return "User not found";
     }
-    return "The company id is: " + userId;
+    return "The company id is : " + userId;
   }
   
  
