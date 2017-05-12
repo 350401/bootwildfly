@@ -1,4 +1,4 @@
-package bootwildfly.controllers;
+package bootwildfly;
 
 import bootwildfly.models.Company;
 import bootwildfly.models.CompanyDao;
